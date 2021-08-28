@@ -1,0 +1,148 @@
+body {
+    font-family: "Manrope", sans-serif !important;
+}
+
+div#maindiv {
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+#section1{
+    width: 85%;
+    padding-top: 75px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+#section1 #first {
+    width: 30%;
+    margin: 150px 10px;
+    float: left;
+}
+h6#fh6 {
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.left {
+    width: 30%;
+    float: left;
+    margin-bottom: 50px;
+}
+.card1{
+    width: 90%;
+    padding-top: 50px;
+    border: 3px solid rgb(209, 201, 201);
+    border-radius: 10px;
+    margin: 25px;
+    height: 55vh;
+    float:left;
+}
+
+#Section {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding : 100px 0px ;
+    border: 2px solid gray 0px solid gray;
+    margin-top: 75px;
+    box-shadow: 2px gray;
+    overflow: auto;
+}
+#Section figure{
+    width: 85%;
+    margin: 0 auto;
+}
+#Section img {
+    width: 70%;
+}
+
+#Section figcaption {
+    width: 29%;
+    float: right;
+}
+p#para {
+    background-color: rgb(94, 206, 141);
+    display: inline;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 900;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+}
+                    /*  */
+
+#section {
+    width: 95%;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+#parent{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 75px ;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+#div1{
+    width: 25%;
+    margin-right: 10px;
+    height: 60vh;
+    float: left;
+}
+.card{
+    width: 33%;
+    border: 3px solid rgb(209, 201, 201);
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 70vh;
+    float:left;
+}
+#card2{
+    background-color: black;
+    color: white;
+}
+
+
+    /* For mobile phones: */
+@media only screen and (max-width: 920px) {
+    .left{
+        width: 100%;
+    }
+    #section1 #first {
+        font-size: x-large;
+        width: 98%;
+        margin: 0px;
+    }
+    #Section img {
+        width: 100%;
+    }
+
+    #Section figcaption {
+        width: 100%;
+    }
+    #div1{
+        width: 95%;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .card{
+        width: 95%;
+        height: 70vh;
+        margin-top: 20px;
+    }
+    #card2{
+        width: 95%;
+        height: 70vh;
+        margin-top: 50px;
+
+    }
+
+}

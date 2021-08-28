@@ -1,0 +1,38 @@
+.main{
+    width: 397px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153 , 153, 153, 1 );
+}
+#display{
+    text-align: right;
+    height: 70px;
+    background-color: dimgray;
+    color: white;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 30px;
+}
+#buttons{
+    border-top: 4px solid grey;
+}
+.Buttons{
+    display: inline-grid;
+    width: 23.6%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Buttons>div{
+    border:1px solid#999 1px solid#999 0px 0px ;
+
+}
+#equal{
+    background-color: blue;
+    color: white;
+}
+.Buttons:hover{
+    background-color: rgb(7, 6, 6);
+    color: white;
+    transition: 0.5s  ease-in-out;
+}
